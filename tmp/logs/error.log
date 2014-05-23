@@ -1,0 +1,479 @@
+2013-10-25 11:58:56 Error: Session key does not exist
+2013-10-25 11:58:56 Error: Session key does not exist
+2013-10-25 11:58:56 Error: Session key does not exist
+2013-10-25 11:58:56 Error: BeditaFrontAccessException - Unexpected error, operation failed; [errorType] => unlogged; [headers] => Array 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 257 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1601): FrontendController->accessDenied('unlogged')
+#1 [internal function]: FrontendController->section('books', 'book-0')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1563): call_user_func_array(Array, Array)
+#3 [internal function]: FrontendController->section('shelf', 'books', 'book-0')
+#4 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1783): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 [internal function]: FrontendController->route('shelf', 'books', 'book-0')
+#6 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#7 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#8 /home/dante/workspace/bedita/examples/dummy.example.com/webroot/index.php(96): Dispatcher->dispatch()
+#9 {main}
+2013-10-25 11:59:03 Error: Session key does not exist
+2013-10-25 11:59:03 Error: Session key does not exist
+2013-10-25 11:59:04 Error: BeditaFrontAccessException - Unexpected error, operation failed; [errorType] => unauthorized; [headers] => Array 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 257 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1601): FrontendController->accessDenied('unauthorized')
+#1 [internal function]: FrontendController->section('books', 'book-0')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1563): call_user_func_array(Array, Array)
+#3 [internal function]: FrontendController->section('shelf', 'books', 'book-0')
+#4 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1783): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 [internal function]: FrontendController->route('shelf', 'books', 'book-0')
+#6 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#7 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#8 /home/dante/workspace/bedita/examples/dummy.example.com/webroot/index.php(96): Dispatcher->dispatch()
+#9 {main}
+2014-05-23 14:54:44 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:55:20 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:56:40 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:56:40 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:04 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:04 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:17 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:17 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:39 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 14:57:39 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:02:33 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:02:33 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:06:47 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:06:47 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:06:53 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:06:53 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:08:34 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:08:34 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:09:18 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:09:18 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:10:29 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:10:29 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:19:25 Error: /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php - line: 14 
+Trace:
+#0 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templateparser.php(3135): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templateparser.php(3199): Smarty_Internal_Templateparser->yy_syntax_error(0, 0)
+#2 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php(119): Smarty_Internal_Templateparser->doParse(0, 0)
+#3 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(273): Smarty_Internal_SmartyTemplateCompiler->doCompile('{foreach from=$...')
+#4 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_template.php(186): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(149): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/dante/workspace/bedita/bedita-app/views/smarty.php(127): Smarty_Internal_TemplateBase->fetch('/home/dante/wor...')
+#7 /home/dante/workspace/bedita/cake/libs/view/view.php(397): SmartyView->_render('/home/dante/wor...', Array, false)
+#8 /home/dante/workspace/bedita-frontends/frontend-responsive/tmp/smarty/compile/Pages^3dee01e87ef08fb888f28366ff82a6d47d353c45.file.generic_section.tpl.php(39): View->element('list_items')
+#9 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(182): content_537f2a73b4a893_51255488(Object(Smarty_Internal_Template))
+#10 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_template.php(284): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#11 /home/dante/workspace/bedita-frontends/frontend-responsive/tmp/smarty/compile/Pages^346a75dc59bcd660a51b6087e619ce0b1af88e84.file.section.tpl.php(26): Smarty_Internal_Template->getSubTemplate('/home/dante/wor...', NULL, 'Pages', 0, NULL, Array, 0)
+#12 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(182): content_537f2a73b42020_21159265(Object(Smarty_Internal_Template))
+#13 /home/dante/workspace/bedita/bedita-app/views/smarty.php(127): Smarty_Internal_TemplateBase->fetch('/home/dante/wor...')
+#14 /home/dante/workspace/bedita/cake/libs/view/view.php(431): SmartyView->_render('/home/dante/wor...', Array)
+#15 /home/dante/workspace/bedita/cake/libs/controller/controller.php(909): View->render(NULL, NULL, NULL)
+#16 /home/dante/workspace/bedita/cake/dispatcher.php(207): Controller->render()
+#17 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#18 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#19 {main}
+2014-05-23 15:19:28 Error: BeditaException - Content not found: Method css does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('css', 'bedita.css')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:29 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('books', 'css', 'module_color.cs...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('books', 'css', 'module_color.cs...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:19:30 Error: BeditaException - Content not found: Method js does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('js', 'beditaUI.js')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:31 Error: BeditaException - Content not found 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1523 
+Trace:
+#0 [internal function]: FrontendController->content('glossary', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 [internal function]: FrontendController->route('glossary', 'css', 'module_color.cs...')
+#3 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#5 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#6 {main}
+2014-05-23 15:19:32 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('questionnaires', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:33 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('ieb_statistics', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:34 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('classrooms', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:35 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('multimedia_adva...', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:36 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('tickets', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:38 Error: BeditaException - Content not found: Method js does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('js', 'beditaUI.js')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:39 Error: BeditaException - Content not found 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1523 
+Trace:
+#0 [internal function]: FrontendController->content('glossary', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 [internal function]: FrontendController->route('glossary', 'css', 'module_color.cs...')
+#3 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#5 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#6 {main}
+2014-05-23 15:19:40 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('questionnaires', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:41 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('classrooms', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:42 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('books', 'css', 'module_color.cs...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('books', 'css', 'module_color.cs...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:19:43 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('ieb_statistics', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:45 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('tickets', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:46 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('multimedia_adva...', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:55 Error: /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php - line: 14 
+Trace:
+#0 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templateparser.php(3135): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templateparser.php(3199): Smarty_Internal_Templateparser->yy_syntax_error(0, 0)
+#2 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php(119): Smarty_Internal_Templateparser->doParse(0, 0)
+#3 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(273): Smarty_Internal_SmartyTemplateCompiler->doCompile('{foreach from=$...')
+#4 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_template.php(186): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#5 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(149): Smarty_Internal_Template->compileTemplateSource()
+#6 /home/dante/workspace/bedita/bedita-app/views/smarty.php(127): Smarty_Internal_TemplateBase->fetch('/home/dante/wor...')
+#7 /home/dante/workspace/bedita/cake/libs/view/view.php(397): SmartyView->_render('/home/dante/wor...', Array, false)
+#8 /home/dante/workspace/bedita-frontends/frontend-responsive/tmp/smarty/compile/Pages^3dee01e87ef08fb888f28366ff82a6d47d353c45.file.generic_section.tpl.php(39): View->element('list_items')
+#9 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(182): content_537f2a73b4a893_51255488(Object(Smarty_Internal_Template))
+#10 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_template.php(284): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#11 /home/dante/workspace/bedita-frontends/frontend-responsive/tmp/smarty/compile/Pages^346a75dc59bcd660a51b6087e619ce0b1af88e84.file.section.tpl.php(26): Smarty_Internal_Template->getSubTemplate('/home/dante/wor...', NULL, 'Pages', 0, NULL, Array, 0)
+#12 /home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(182): content_537f2a73b42020_21159265(Object(Smarty_Internal_Template))
+#13 /home/dante/workspace/bedita/bedita-app/views/smarty.php(127): Smarty_Internal_TemplateBase->fetch('/home/dante/wor...')
+#14 /home/dante/workspace/bedita/cake/libs/view/view.php(431): SmartyView->_render('/home/dante/wor...', Array)
+#15 /home/dante/workspace/bedita/cake/libs/controller/controller.php(909): View->render(NULL, NULL, NULL)
+#16 /home/dante/workspace/bedita/cake/dispatcher.php(207): Controller->render()
+#17 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#18 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#19 {main}
+2014-05-23 15:19:57 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('classrooms', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:58 Error: BeditaException - Content not found: Method css does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('css', 'bedita.css')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:19:59 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('multimedia_adva...', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:00 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('books', 'css', 'module_color.cs...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('books', 'css', 'module_color.cs...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:20:01 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('tickets', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:02 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('questionnaires', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:03 Error: BeditaException - Content not found: Method js does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('js', 'beditaUI.js')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:04 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('ieb_statistics', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:05 Error: BeditaException - Content not found 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1523 
+Trace:
+#0 [internal function]: FrontendController->content('glossary', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 [internal function]: FrontendController->route('glossary', 'css', 'module_color.cs...')
+#3 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#5 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#6 {main}
+2014-05-23 15:20:07 Error: BeditaException - Content not found: Method js does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('js', 'beditaUI.js')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:08 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('multimedia_adva...', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:10 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('books', 'css', 'module_color.cs...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('books', 'css', 'module_color.cs...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:20:11 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('classrooms', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:12 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('questionnaires', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:13 Error: BeditaException - Content not found 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1523 
+Trace:
+#0 [internal function]: FrontendController->content('glossary', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#2 [internal function]: FrontendController->route('glossary', 'css', 'module_color.cs...')
+#3 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#5 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#6 {main}
+2014-05-23 15:20:14 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('ieb_statistics', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:20:15 Error: BeditaException - Content not found: Method  does not exist 
+File: /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php - line: 1820 
+Trace:
+#0 [internal function]: FrontendController->route('tickets', 'css', 'module_color.cs...')
+#1 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#2 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#3 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#4 {main}
+2014-05-23 15:21:22 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'libs', 'modernizr-2.6.2...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'libs', 'modernizr-2.6.2...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:23 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'main.js')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'main.js')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:24 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'libs', 'jquery-1.11.0.m...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'libs', 'jquery-1.11.0.m...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:26 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'main.js')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'main.js')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:37 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:21:37 Error: BeThumb: file '/var/www/ws/media/ama_traazz_v2c9-dall-energia-nucleare-ai-quark/01_08_i_u2_p05_fig_2_810x_a01ac2f6de3b42bc83c86a25e624d1fb-1.jpg' does not exist
+2014-05-23 15:21:38 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'libs', 'modernizr-2.6.2...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'libs', 'modernizr-2.6.2...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:39 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'main.js')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'main.js')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:40 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'libs', 'jquery-1.11.0.m...')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'libs', 'jquery-1.11.0.m...')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}
+2014-05-23 15:21:42 Error: BeditaException - Error: object type not found 
+File: /home/dante/workspace/bedita/bedita-app/models/objects/b_e_object.php - line: 571 
+Trace:
+#0 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1568): BEObject->getType(false)
+#1 [internal function]: FrontendController->section('home-pub', 'js', 'main.js')
+#2 /home/dante/workspace/bedita/bedita-app/controllers/frontend_controller.php(1813): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 [internal function]: FrontendController->route('home-pub', 'js', 'main.js')
+#4 /home/dante/workspace/bedita/cake/dispatcher.php(204): call_user_func_array(Array, Array)
+#5 /home/dante/workspace/bedita/cake/dispatcher.php(171): Dispatcher->_invoke(Object(PagesController), Array)
+#6 /home/dante/workspace/bedita-frontends/frontend-responsive/webroot/index.php(96): Dispatcher->dispatch()
+#7 {main}

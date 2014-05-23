@@ -1,0 +1,5 @@
+2014-05-23 13:13:32 Notice: Notice (8): Undefined index: abstract in [/home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(165) : eval()'d code, line 32]
+2014-05-23 13:13:32 Notice: Notice (8): Undefined index: body in [/home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(165) : eval()'d code, line 42]
+2014-05-23 14:54:44 Notice: Notice (8): Undefined index: options in [/home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(165) : eval()'d code, line 58]
+2014-05-23 14:54:44 Notice: Notice (8): Trying to get property of non-object in [/home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(165) : eval()'d code, line 58]
+2014-05-23 14:54:44 Notice: Notice (8): Undefined index: htmlAttr in [/home/dante/workspace/bedita/vendors/smarty/libs/sysplugins/smarty_internal_templatebase.php(165) : eval()'d code, line 58]
