@@ -24,3 +24,7 @@ For example, in unix shell, assuming 'john' is the username:
 
 sudo chown -R john:www-data /var/www/responsive/tmp
 sudo chmod -R g+w /var/www/responsive/tmp
+
+Enjoy responsive frontend ;)
+
+If something goes bad, take a look on logs (for example in /var/www/responsive/tmp/logs) and tune your core.php file, to change debug level as needed (/var/www/responsive/config/core.php).
