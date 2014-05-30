@@ -7,6 +7,10 @@ setup
 =====
 
 Clone frontend responsive into local path, for example /var/www/responsive.
+
+      cd /var/www
+      git clone git@github.com:bedita/responsive.git
+
 Copy responsive/webroot/index.php.sample in responsive/webroot/index.php.
 Edit responsive/webroot/index.php and set properly CAKE_CORE_INCLUDE_PATH and BEDITA_CORE_PATH.
 For instance, if your bedita home path is /var/www/bedita:
