@@ -30,7 +30,6 @@ Copy config/core.php.sample into config/core.php:
       cd /var/www/bedita/frontends/responsive/config
       cp core.php.sample core.php
 
-
 Set permits for temporary folder responsive/tmp.
 For example, in unix shell, assuming 'john' is the username:
 
