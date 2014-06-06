@@ -1,42 +1,40 @@
 Responsive
-==========
+===========
 
-Html5 responsive BEdita frontend from http://intializr.com
+HTML5 Responsive BEdita frontend from http://intializr.com
 
 Setup
 =====
 
-a. Clone frontend responsive into local bedita frontend path, normally this is the __frontends__ folder inside bedita (like __/var/www/bedita/frontends/responsive__), so:
+a. Clone frontend responsive into local bedita frontend path, normally this is the __frontends__ folder inside bedita (like */var/www/bedita/frontends*), so:
 
 ```
       cd /var/www/bedita/frontends
       git clone git@github.com:bedita/responsive.git
 ```
 
-b. Copy __responsive/webroot/index.php.sample__ to __responsive/webroot/index.php__.
+b. Copy *responsive/webroot/index.php.sample* to *responsive/webroot/index.php*.
 
 
-c. Copy __responsive/config/core.php.sample__ into __responsive/config/core.php__ and modify it, if necessary...
+c. Copy *responsive/config/core.php.sample* to *responsive/config/core.php* and modify it, if necessary...
 
 
-d. Set write permissions for temporary folder __responsive/tmp__.
-    For example, in unix shell, assuming 'john' is the username:
+d. Set write permissions for temporary folder *responsive/tmp*.
+    For example, in a unix shell, assuming 'john' is the username and current path is *frontends* folder:
 
 ```
-      sudo chown -R john:www-data /var/www/responsive/tmp
-      sudo chmod -R g+w /var/www/responsive/tmp
+      sudo chown -R john:www-data responsive/tmp
+      sudo chmod -R g+w responsive/tmp
 ```
 
-Enjoy responsive frontend ;)
-
-If something goes wrong take a look at log files (for example in /var/www/responsive/tmp/logs) and tune your core.php file, changing debug level as needed (/var/www/responsive/config/core.php).
+If something goes wrong take a look at log files (for example in *responsive/tmp/logs*) and tune your core.php file, changing debug level as needed (*responsive/config/core.php*).
 
 Also read this article: http://docs.bedita.com/setup/if-something-goes-wrong-in-bedita
 
 
 Note
 ====
-If your frontend path is not inside /bedita/frontends, edit responsive/webroot/index.php and set properly CAKE_CORE_INCLUDE_PATH and BEDITA_CORE_PATH.
+If your frontend path is not inside *bedita/frontends* but elsewhere, you may edit *responsive/webroot/index.php* and set properly CAKE_CORE_INCLUDE_PATH and BEDITA_CORE_PATH.
 For instance, if your bedita home path is /var/www/bedita:
 
 ```
