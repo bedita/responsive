@@ -7,19 +7,17 @@ Setup
 =====
 
  1. Clone frontend responsive into local bedita frontend path, normally this is the __frontends__ folder inside bedita (like __/var/www/bedita/frontends/responsive__), so:
-
 ```
       cd /var/www/bedita/frontends
       git clone git@github.com:bedita/responsive.git
 ```
-
- 1. Copy __responsive/webroot/index.php.sample__ to __responsive/webroot/index.php__.
-
-
- 1. Copy __responsive/config/core.php.sample__ into __responsive/config/core.php__ and modify it, if necessary...
+ 2. Copy __responsive/webroot/index.php.sample__ to __responsive/webroot/index.php__.
 
 
- 1. Set write permissions for temporary folder __responsive/tmp__.
+ 3. Copy __responsive/config/core.php.sample__ into __responsive/config/core.php__ and modify it, if necessary...
+
+
+ 4. Set write permissions for temporary folder __responsive/tmp__.
     For example, in unix shell, assuming 'john' is the username:
 
 ```
@@ -29,7 +27,9 @@ Setup
 
 Enjoy responsive frontend ;)
 
-If something goes worong, take a look on logs (for example in /var/www/responsive/tmp/logs) and tune your core.php file, to change debug level as needed (/var/www/responsive/config/core.php).
+If something goes wrong take a look at log files (for example in /var/www/responsive/tmp/logs) and tune your core.php file, changing debug level as needed (/var/www/responsive/config/core.php).
+
+Also read this article: http://docs.bedita.com/setup/if-something-goes-wrong-in-bedita
 
 
 Note
