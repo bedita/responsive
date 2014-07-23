@@ -3,42 +3,25 @@
 /*.settings
 /*.cache
 /.buildpath
-
 .DS_Store
+/.sass-cache
+/dist
+/.tmp
 
-# /config/
-/config/database.php
+# config
 /config/core.php
 /config/frontend.cfg.php
 
-# /tmp/
-/tmp/*.php.backup
-/tmp/import
+# webroot
+/webroot/index.php
 
-# /tmp/cache/
-/tmp/cache/cake_*
-
-# /tmp/cache/models/
-/tmp/cache/models/*
-
-# /tmp/cache/persistent/
-/tmp/cache/persistent/*
-
-# /tmp/cache/views/
-/tmp/cache/views/*
-
-# /tmp/logs/
-/tmp/logs/*
-
-# /tmp/smarty/compile/
-/tmp/smarty/compile/*
+# tmp
+/tmp
 
 # /webroot/
 /webroot/test.php
 /webroot/index.php
-
-# /webroot/files/
-/webroot/files/*
+/webroot/files
 
 # /webroot/img/
 /webroot/img/.directory
