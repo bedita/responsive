@@ -1,14 +1,13 @@
-{foreach from=$section.childContents item='article'}
+{foreach $section.childContents as $article}
 	<article>
 	    <header>
 	        <h2><a href="{$html->url($article.canonicalPath)}">{$article.title}</a></h2>
 	    </header>
 	    <section>
-	        <p>{$article.body|truncate:64|default:"<i>[no body]</i>"}</p>
+	        <p>{$article.body|strip_tags|truncate:150|default:"<i>[no body]</i>"}</p>
 	    </section>
 	    <footer>
-	        <h3>Author</h3>
-	        <p>{$article.UserCreated.realname|default:''}</p>
+	        <p>Author: <i>{$article.UserCreated.realname|default:''}</i></p>
 	    </footer>
 	</article>
 {/foreach}

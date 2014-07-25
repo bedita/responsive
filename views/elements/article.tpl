@@ -1,10 +1,8 @@
-{assign var='article' value=$section.currentContent}
+{$article = $section.currentContent}
 <article>
     <header>
-        <h1>{$article.title}</h1>
-        {if !empty($article.abstract)}
-        <p>{$article.abstract}</p>
-        {/if}
+        <h1>{$article.title|default:'[no title]'}</h1>
+        <p>{$article.abstract|default:''}</p>
     </header>
     {if !empty($article.relations.attach)}
     <section>
