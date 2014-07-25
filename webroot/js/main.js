@@ -1,17 +1,5 @@
-main = function() {
-
-	init: function() {
-		// init
-	},
-
-	anotherMethod: function() {
-
-	}
-
-}
-
-
+main = function() {};
 
 $(document).ready(function() {
-	main.init();
+	main();
 });
