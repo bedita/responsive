@@ -1,5 +1,6 @@
-{foreach $section.childContents as $article}
-	<article>
+<article>
+{if !empty($section.childContents)}
+    {foreach $section.childContents as $article}
 	    <header>
 	        <h2><a href="{$html->url($article.canonicalPath)}">{$article.title}</a></h2>
 	    </header>
@@ -9,5 +10,10 @@
 	    <footer>
 	        <p>Author: <i>{$article.UserCreated.realname|default:''}</i></p>
 	    </footer>
-	</article>
-{/foreach}
+    {/foreach}
+{else}
+        <section>
+            <p>{t}Section is empty{/t}</p>
+        </section>
+{/if}
+</article>

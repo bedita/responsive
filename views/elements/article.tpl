@@ -1,3 +1,4 @@
+{if !empty($section.currentContent)}
 {$article = $section.currentContent}
 <article>
     <header>
@@ -32,3 +33,4 @@
         <p>{$article.UserCreated.realname|default:''}</p>
     </footer>
 </article>
+{/if}
