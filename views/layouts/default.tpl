@@ -16,6 +16,8 @@
 	{$html->css('normalize.min')}
 	{$html->css('style')}
 
+	<link rel="icon" href="{$html->webroot}favicon.ico"/>
+
 	{$beFront->feeds()}
 
     <script src="js/libs/modernizr-2.6.2-respond-1.1.0.min.js"></script>
