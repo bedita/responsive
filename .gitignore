@@ -15,6 +15,9 @@
 # webroot
 /webroot/index.php
 
+# plugins
+/plugins/debug_kit
+
 # tmp
 /tmp
 
