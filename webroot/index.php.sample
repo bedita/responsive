@@ -91,11 +91,16 @@
 	if (isset($_GET['url']) && $_GET['url'] === 'favicon.ico') {
 		return;
 	} else {
-		 $Dispatcher=new Dispatcher();
-		 try {
-		 	$Dispatcher->dispatch();
-		} catch (Exception $ex) {
-			FrontendController::handleExceptions($ex);
+		$Dispatcher = new Dispatcher();
+		// BEdita version greater of 3.5.1
+		if (strnatcmp(Configure::read('version'), '3.5.1') > 0) {
+			$Dispatcher->dispatch();
+		// old style to handle exceptions (if new frontend was used with old BEdita version)
+		} else {
+			try {
+				$Dispatcher->dispatch();
+			} catch (Exception $ex) {
+				FrontendController::handleExceptions($ex);
+			}
 		}
 	}
-?>

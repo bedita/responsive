@@ -1,1 +1,2 @@
-Hi <b>{$BEAuthUser.realname}</b> you're not authorized to access to this item.
+{* deprecated, use instead errors/error403.tpl *}
+{include file='../errors/error403.tpl'}
