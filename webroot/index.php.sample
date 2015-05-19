@@ -55,14 +55,14 @@
  *
  */
 	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', ROOT. DS . "..");
+		define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . "..");
 	}
 /**
  * The absolute path to the "BEdita" core directory bedita-app included, WITHOUT a trailing DS.
  *
  */
 	if (!defined('BEDITA_CORE_PATH')) {
-		define('BEDITA_CORE_PATH', ROOT. DS . ".." . DS. "bedita-app");
+		define('BEDITA_CORE_PATH', CAKE_CORE_INCLUDE_PATH . DS . "bedita-app");
 	}
 
 /**
