@@ -1,5 +1,4 @@
 <?php
-/* SVN FILE: $Id$ */
 /**
  * Short description for file.
  *
@@ -24,45 +23,16 @@
  * @lastmodified  $Date$
  * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
+
 /**
  * Use the DS to separate the directories in other defines
  */
 	if (!defined('DS')) {
 		define('DS', DIRECTORY_SEPARATOR);
 	}
-/**
- * These defines should only be edited if you have cake installed in
- * a directory layout other than the way it is distributed.
- * When using custom settings be sure to use the DS and do not add a trailing DS.
- */
-
-/**
- * The full path to the directory which holds "app", WITHOUT a trailing DS.
- *
- */
-	if (!defined('ROOT')) {
-		define('ROOT', dirname(dirname(dirname(__FILE__))));
-	}
-/**
- * The actual directory name for the "app".
- *
- */
-	if (!defined('APP_DIR')) {
-		define('APP_DIR', basename(dirname(dirname(__FILE__))));
-	}
-/**
- * The absolute path to the "cake" directory, WITHOUT a trailing DS.
- *
- */
-	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . "..");
-	}
-/**
- * The absolute path to the "BEdita" core directory bedita-app included, WITHOUT a trailing DS.
- *
- */
-	if (!defined('BEDITA_CORE_PATH')) {
-		define('BEDITA_CORE_PATH', CAKE_CORE_INCLUDE_PATH . DS . "bedita-app");
+	
+	if (!include('..' . DS . 'config' . DS . 'paths.php')) {
+		trigger_error("Can't find paths.php in the " . DS . "config folder.", E_USER_ERROR);
 	}
 
 /**
