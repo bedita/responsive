@@ -123,7 +123,7 @@ $config['cookieName'] = array(
 
 /**
  * save history navigation
- 
+ *
  * 'sessionEntry' => number of history items in session
  * 'showDuplicates' => false to not show duplicates in history session 
  * 'trackNotLogged' => true save history for all users (not logged too)
@@ -136,9 +136,12 @@ $config['cookieName'] = array(
 
 /**
  * Enable API endpoints for the  frontend
- * required `baseUrl` the endpoint base url
- * optional `JWT` a set of conf for JWT creation
- * optional `allowedOrigins` a list of allowed origin to use the API
+ * Possible params are:
+ * - `baseUrl` (required) the endpoint base url
+ * - `JWT` (optional) a set of conf for JWT creation
+ * - `allowedOrigins` (optional) a list of allowed origin to use the API
+ * - `formatting` (optional) define some formatting rules as fields to remove or to keep
+ * - `validation` (optional) define some validation rules as objects that can be write via API
  */
 // $config['api'] = array(
 //     'baseUrl' => '/api/v1',
@@ -146,7 +149,24 @@ $config['cookieName'] = array(
 //         'expiresIn' => 600,
 //         'alg' => 'HS256'
 //     ),
-//     'allowedOrigins' => array()
+//     'allowedOrigins' => array(),
+//     'formatting' => array(
+//         'fields' => array(
+//             // fields that should be removed from results
+//             'remove' => array(
+//                 'title',
+//                 'Category' => array('name')
+//             ),
+//             // fields (removed by default) that should be kept
+//             'keep' => array(
+//                 'ip_created',
+//                 'Category' => array('object_type_id', 'priority')
+//             )
+//         )
+//     ),
+//     'validation' => array(
+//         'writableObjects' => array('document', 'event')
+//     )
 // );
 
 // frontend.cfg
