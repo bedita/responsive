@@ -1,21 +1,21 @@
 <?php
 /*-----8<--------------------------------------------------------------------
- * 
+ *
  * BEdita - a semantic content management framework
- * 
+ *
  * Copyright 2014 ChannelWeb Srl, Chialab Srl
- * 
+ *
  * This file is part of BEdita: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published 
- * by the Free Software Foundation, either version 3 of the License, or 
+ * it under the terms of the GNU Lesser General Public License as published
+ * by the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * BEdita is distributed WITHOUT ANY WARRANTY; without even the implied 
+ * BEdita is distributed WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU Lesser General Public License for more details.
- * You should have received a copy of the GNU Lesser General Public License 
+ * You should have received a copy of the GNU Lesser General Public License
  * version 3 along with BEdita (see LICENSE.LGPL).
  * If not, see <http://gnu.org/licenses/lgpl-3.0.html>.
- * 
+ *
  *------------------------------------------------------------------->8-----
  */
 
@@ -31,7 +31,7 @@ include APP. 'config' . DS . 'mapping.cfg.php';
 ///////////////////////////////////////////////////
 
 /**
- * Publication id referenced by frontend, 
+ * Publication id referenced by frontend,
  * change if different from id = 1 (default)
  */
 $config['frontendAreaId'] = 1;
@@ -40,20 +40,20 @@ $config['frontendAreaId'] = 1;
 /**
  * show or not objects with status = draft
  * default: show only objects with status = ON
- */ 
+ */
 $config['draft'] = false;
 
 
 /**
  * staging site ? default: false -> production site
- */  
+ */
 $config['staging']             = false;
 
 
 /**
- * check the objects publication date and throw a 404 error if the publication date of the object requested 
+ * check the objects publication date and throw a 404 error if the publication date of the object requested
  * is expired or is in the future
- */   
+ */
 $config['filterPublicationDate'] = true;
 
 /**
@@ -81,7 +81,7 @@ $config['frontendLang']     = 'eng';
 $config['frontendLangs']    = array (
                                      'eng'    => array('en', 'english'),
                                      'ita'    => array('it', 'italiano'),
-                                /*    
+                                /*
                                     'spa'    => array('es', 'espa&ntilde;ol'),
                                     'por'    => array('pt', 'portugu&ecirc;s'),
                                     'fra'    => array('fr', 'fran&ccedil;oise'),
@@ -90,7 +90,7 @@ $config['frontendLangs']    = array (
                                 );
 
 /**
- * maps of languages to autodetecting language choice 
+ * maps of languages to autodetecting language choice
  */
 $config['frontendLangsMap'] = array(
     'it'    => 'ita',
@@ -102,7 +102,7 @@ $config['frontendLangsMap'] = array(
 
 /**
  * show all contents in sitemap. If it's false show only sections' tree
- */ 
+ */
 $config['sitemapAllContent'] = true;
 
 /**
@@ -115,7 +115,7 @@ $config['sitemapAllContent'] = true;
 //);
 
 /**
- * frontend cookie names 
+ * frontend cookie names
  */
 $config['cookieName'] = array(
     'langSelect' => 'dummyExampleLang'
@@ -125,7 +125,7 @@ $config['cookieName'] = array(
  * save history navigation
  *
  * 'sessionEntry' => number of history items in session
- * 'showDuplicates' => false to not show duplicates in history session 
+ * 'showDuplicates' => false to not show duplicates in history session
  * 'trackNotLogged' => true save history for all users (not logged too)
  */
 //$config['history'] = array(
@@ -137,19 +137,25 @@ $config['cookieName'] = array(
 /**
  * Enable API endpoints for the  frontend
  * Possible params are:
+ *
  * - `baseUrl` (required) the endpoint base url
- * - `JWT` (optional) a set of conf for JWT creation
  * - `allowedOrigins` (optional) a list of allowed origin to use the API
+ * - `auth` (optional) an array of authentication options
+ *   - `component` define your own custom API auth component to use
+ *   - `JWT` a set of conf for JWT creation
  * - `formatting` (optional) define some formatting rules as fields to remove or to keep
  * - `validation` (optional) define some validation rules as objects that can be write via API
  */
 // $config['api'] = array(
 //     'baseUrl' => '/api/v1',
-//     'JWT' => array(
-//         'expiresIn' => 600,
-//         'alg' => 'HS256'
-//     ),
 //     'allowedOrigins' => array(),
+//     'auth' => array(
+//         'component' => 'CustomAuth',
+//         'JWT' => array(
+//             'expiresIn' => 600,
+//             'alg' => 'HS256'
+//         )
+//     ),
 //     'formatting' => array(
 //         'fields' => array(
 //             // fields that should be removed from results
